@@ -1,0 +1,77 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #02022e;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+body{
+	background-color:  rgba(135, 102, 4, 0.2);
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main {
+	padding: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.certificates {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.certificate:hover{
+	background-color: #333;
+}
+
+.certificate {
+	width: 300px;
+	margin-bottom: 20px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.certificate img {
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.certificate h3 {
+	font-size: 20px;
+	margin: 10px;
+}
+
+.certificate p {
+	font-size: 16px;
+	margin: 10px;
+	color: #999;
+}
